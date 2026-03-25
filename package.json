@@ -1,0 +1,12 @@
+{
+  "name": "rspack-sources-namespace-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rslib build",
+    "check": "node check.mjs"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.20.0"
+  }
+}
